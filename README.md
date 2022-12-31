@@ -82,7 +82,6 @@ mp remote
 
 block.get_info()
 
-Address Info:  ('65.21.202.125', 8888)
 HTTP/1.1 200 OK
 access-control-allow-origin: *
 content-length: 839
