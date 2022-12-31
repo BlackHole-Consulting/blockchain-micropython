@@ -2,6 +2,18 @@
 
 A IOT microcontroller blockchain micropython library for EOS, ETH, BITCOIN. Esp32 controllers, St32 and others . For RTOS operating systems . ESP32, ESP8266, ST32 micro controllers .
 
+
+## Features
+
+- Call to nodes to send request and receive .
+
+- Generate ECC keys
+
+- ECDSA signature
+
+- Push transactoin (Pending)
+
+
 ### Requeriments
 
 
