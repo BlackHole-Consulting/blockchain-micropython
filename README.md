@@ -72,4 +72,14 @@ connection: close
 
 
 ```
-`
+
+### Authors
+
+Hecathomb
+
+Citrix
+
+### License 
+
+This is a MIT Free library .
+
