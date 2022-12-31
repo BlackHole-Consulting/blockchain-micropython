@@ -19,7 +19,7 @@ Compile
 
 
 
-```
+```python
 
 cd micropython/ports/esp32
 
