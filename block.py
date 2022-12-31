@@ -4,10 +4,23 @@ try:
 except:
     pass
 
+from ufastecdsa import curve, ecdsa, keys, uti
+
+def genKeys()
+
+	private_key, public_key = keys.gen_keypair(curve.P256)
+	print("private_key:", private_key)
+	print("public_key:", public_key.x, public_key.y, public_key.curve.name)
+	
+	return ( private_key,public_key)
+
+
 
 nodes_api = ["http://192.168.1.139:9010"]
 
 ## WARNING - Don't send unencrypted data
+
+
 
 def get_info():
     """
