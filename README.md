@@ -46,6 +46,30 @@ esptool.py --chip esp32 -p /dev/ttyACM0 -b 460800 --before=default_reset --after
 
 * Install mpremote to connect by serial to your device
 
+#### Generate ECC KEYS
+
+
+
+
+```
+
+>>> from ufastecdsa import curve, ecdsa, keys, util
+
+>>> private_key, public_key = keys.gen_keypair(curve.P256)
+
+>>> print("private_key:", private_key)
+
+private_key: 106255218625746052900556841899778706286936241075517062433512998688660573842589
+
+>>> print("public_key:", public_key.x, public_key.y, public_key.curve.name)
+
+public_key: 8000029119201211774134831366187224384061690756635147881125528483329207105756 70467873900675576870878719948168634321605363863909963611231196840665792059906 P256
+
+
+```
+
+
+#### Blockchain query ( EOS private block)
 
 ```
 
