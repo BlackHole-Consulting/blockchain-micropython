@@ -27,7 +27,7 @@ or
 
 Copy file modules to your MicroPython ports
 
-Compile
+### Compile
 
 
 
@@ -35,13 +35,13 @@ Compile
 
 cd micropython/ports/esp32
 
-make USER_C_MODULES=/home/raziel/projects/micropython/ports/esp32/boards/GENERIC/ucrypto/micropython.cmake BOARD=CHANGE_YOUR_BOARD  
+make USER_C_MODULES=/YOURPATH/ports/esp32/boards/GENERIC/ucrypto/micropython.cmake BOARD=CHANGE_YOUR_BOARD  
 
 
 ```
 
 
-Flash
+### Flash
 
 
 ```python
