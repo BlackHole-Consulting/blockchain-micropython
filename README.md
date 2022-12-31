@@ -25,7 +25,7 @@ Use install , to install from 0
 
 or 
 
-Copy file modules yo your MicroPython ports
+Copy file modules to your MicroPython ports
 
 Compile
 
