@@ -68,6 +68,10 @@ connection: close
 
 {"server_version":"26a4d285","chain_id":"8b6404a00556c4a1ed0257869dbd41c9ba23349590f39eb90fec0eb9382469dd","head_block_num":2016452,"last_irreversible_block_num":2016451,"last_irreversible_block_id":"001ec4c37801042fdfa0e9cb9273a581b2d166348eb33e3413c5aa7bbef27f64","head_block_id":"001ec4c41773e88922737d74b2438ca542d4bb78aa89a19092dac619589e1472","head_block_time":"2022-12-31T16:42:35.000","head_block_producer":"eosio","virtual_block_cpu_limit":100000000,"virtual_block_net_limit":1048576000,"block_cpu_limit":99900,"block_net_limit":1048576,"server_version_string":"v2.1.0","fork_db_head_block_num":2016452,"fork_db_head_block_id":"001ec4c41773e88922737d74b2438ca542d4bb78aa89a19092dac619589e1472","server_full_version_string":"v2.1.0-26a4d285d0be1052d962149e431eb81500782991","last_irreversible_block_time":"2022-12-31T16:42:34.500"}
 
+>>> private_key, public_key = block.genKeys("ECC")
+
+>>> print("private_key:", private_key)
+private_key: 8913420357290673623742686101793348185289342836937776373606618472580075926985
 
 
 
