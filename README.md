@@ -1,6 +1,6 @@
 # Blockchain Micropython Library
 
-A IOT microcontroller blockchain micropython library for EOS, ETH, BITCOIN. Esp32 controllers, St32 and others . For RTOS operating systems .
+A IOT microcontroller blockchain micropython library for EOS, ETH, BITCOIN. Esp32 controllers, St32 and others . For RTOS operating systems . ESP32, ESP8266, ST32 micro controllers .
 
 ### Requeriments
 
