@@ -86,6 +86,13 @@ Hecathomb
 
 Citrix
 
+### Libraries from projects 
+
+* ucrypto library https://github.com/dmazzella/ucrypto
+
+* pythonecdsa https://github.com/starkbank/ecdsa-python
+
+
 ### License 
 
 This is a MIT Free library .
