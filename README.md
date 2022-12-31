@@ -5,7 +5,7 @@ A IOT microcontroller blockchain micropython library for EOS, ETH, BITCOIN. Esp3
 
 ## Features
 
-- Call to nodes to send request and receive .
+- Call to nodes to send request and receive , get info get balance , get tx, get accounts ....
 
 - Generate ECC keys
 
