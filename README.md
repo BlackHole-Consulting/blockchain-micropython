@@ -104,6 +104,28 @@ private_key: 8913420357290673623742686101793348185289342836937776373606618472580
 ![image](https://user-images.githubusercontent.com/60758685/210151486-36d3f31b-c916-4391-adaa-4194f619b40e.png)
 
 
+#### Sign ECDSA 
+
+```
+
+>>> from ecc import Ecdsa
+
+>>> signature = Ecdsa.sign("a", a)
+
+>>> signature.r
+
+336
+
+>>> signature.s
+
+141
+
+
+
+```
+
+
+
 ### Authors
 
 Hecathomb
