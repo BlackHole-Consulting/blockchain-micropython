@@ -32,7 +32,7 @@ make USER_C_MODULES=/home/raziel/projects/micropython/ports/esp32/boards/GENERIC
 Flash
 
 
-```
+```python
 
 cd build-YOURBOARD
 
@@ -51,7 +51,7 @@ esptool.py --chip esp32 -p /dev/ttyACM0 -b 460800 --before=default_reset --after
 
 
 
-```
+```python
 
 >>> from ufastecdsa import curve, ecdsa, keys, util
 
@@ -71,7 +71,7 @@ public_key: 80000291192012117741348313661872243840616907566351478811255284833292
 
 #### Blockchain query ( EOS private block)
 
-```
+```python
 
 mpremote cp block.py requests.py :
 
@@ -98,7 +98,7 @@ connection: close
 
 #### Sign ECDSA 
 
-```
+```python
 
 >>> from ecc import Ecdsa
 
