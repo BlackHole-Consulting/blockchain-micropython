@@ -115,6 +115,23 @@ connection: close
 
 ```
 
+## Push Transaction
+
+
+```python
+
+cooming soon
+
+>>> block.push(to, amount, token, meta, private_key)
+
+executed transaction: f1cdf230e847a8fe582ec615364b7fdbe52f5b462efaad052c107bad90f14d3b  152 bytes  1411 us
+#   eosio.token <= eosio.token::transfer        {"from":"eosio","to":"black","quantity":"12.5000 BLACK","memo":"This is the money I owe you"}
+#         eosio <= eosio.token::transfer        {"from":"eosio","to":"black","quantity":"12.5000 BLACK","memo":"This is the money I owe you"}
+#         black <= eosio.token::transfer        {"from":"eosio","to":"black","quantity":"12.5000 BLACK","memo":"This is the money I owe you"}
+
+
+```
+
 ### Todo List
 
 Please feel free to add issues .
