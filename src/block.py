@@ -4,23 +4,10 @@ try:
 except:
     pass
 
-from ufastecdsa import curve, ecdsa, keys, uti
 
-def genKeys()
-
-	private_key, public_key = keys.gen_keypair(curve.P256)
-	print("private_key:", private_key)
-	print("public_key:", public_key.x, public_key.y, public_key.curve.name)
-	
-	return ( private_key,public_key)
-
-
-
-nodes_api = ["http://192.168.1.139:9010"]
+nodes_api = ["http://blackhole.consulting:8888"]
 
 ## WARNING - Don't send unencrypted data
-
-
 
 def get_info():
     """
@@ -41,7 +28,7 @@ def get_block(blocknum):
 
     path = "/v1/chain/get_block"
 
-    req = requests.post("block.blackhole.consulting",8888,"v1/chain/get_block","\ncontent-type: application/json","{\"block_num_or_id\": \""+blocknum+"\"}")
+    req = requests.post("router.blackhole.consulting",8888,"v1/chain/get_block","Content-type: application/json","{\"block_num_or_id\": \""+str(blocknum)+"\"}")
     
     return req
 
@@ -54,7 +41,7 @@ def get_account(account_name):
 
     path = "/v1/chain/get_account"
 
-    req = requests.post("block.blackhole.consulting",8888,"v1/chain/get_account","\ncontent-type: application/json","{\"account_name\": \""+account_name+"\"}")
+    req = requests.post("block.blackhole.consulting",8888,"v1/chain/get_account","content-type: application/json","{\"account_name\": \""+account_name+"\"}")
     
     return req
 
@@ -66,7 +53,7 @@ def get_code(account_name):
     """
     path = "/v1/chain/get_code"
 
-    req = requests.post("block.blackhole.consulting",8888,"v1/chain/get_info","\ncontent-type: application/json","{\"account_name\": \""+account_name+"\"}")
+    req = requests.post("block.blackhole.consulting",8888,"v1/chain/get_info","content-type: application/json","{\"account_name\": \""+account_name+"\"}")
         
     return req
 
