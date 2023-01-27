@@ -146,8 +146,6 @@ Citrix
 
 * ucrypto library https://github.com/dmazzella/ucrypto
 
-* pythonecdsa https://github.com/starkbank/ecdsa-python
-
 
 ### License 
 
