@@ -5,6 +5,28 @@ except:
     pass
 
 
+
+from ufastecdsa import curve, ecdsa, keys, util
+
+def genkeys():
+    private_key, public_key = keys.gen_keypair(curve.P256)
+    #print("private_key:", private_key)
+    #print("public_key:", public_key.x, public_key.y, public_key.curve.name)
+    
+    return (private_key,public_key.x,public_key.y,public_key.curve.name)
+
+def sign(message,private_key):
+    r, s = ecdsa.sign(message, private_key)
+    #print("R:", r)
+    #print("S:", s)
+    return (r,s)
+
+def verify(message,r,s,publick_key):
+    verified = ecdsa.verify((r, s), message, public_key)
+    #print(verified)
+    return (verified)
+
+
 nodes_api = ["http://blackhole.consulting:8888"]
 
 ## WARNING - Don't send unencrypted data
