@@ -137,7 +137,6 @@ executed transaction: f1cdf230e847a8fe582ec615364b7fdbe52f5b462efaad052c107bad90
 
 Please feel free to add issues .
 
-Push transaction EOS
 
 Push transaction BTC
 
