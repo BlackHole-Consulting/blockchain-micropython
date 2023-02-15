@@ -20,12 +20,6 @@ A IOT microcontroller blockchain micropython library for EOS, ETH, BITCOIN. Esp3
 
 ### Installation
 
-Use install , to install from 0
-
-`install.sh`
-
-or 
-
 Copy file modules to your MicroPython ports
 
 ### Compile
